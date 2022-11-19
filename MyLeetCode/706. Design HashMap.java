@@ -12,7 +12,7 @@ class MyHashMap {
     private int size;
     private static final double load_factor = 0.75;
     public MyHashMap() {
-        slots = new Node[10];
+        slots = new Node[12];
         size = 0;
     }
     
